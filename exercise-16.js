@@ -6,7 +6,7 @@ function graduates (students) {
       name: students[i].name,
       score: students[i].score
     }
-    if (students[i].score > tertinggi[students[i].class].score) {
+    if (students[i].score > 75) {
       tertinggi[students[i].class].name = students[i].name
       tertinggi[students[i].class].score = students[i].score
     }
