@@ -1,11 +1,11 @@
 function tukarBesarKecil(kalimat) {
  // you can only write your code here!
  var tukarUkuran=[];
- for(var x=0; x<kalimat.length;x++){
-   if(kalimat[x]===kalimat[x].toUpperCase()){
-     tukarUkuran.push(kalimat[x].toLowerCase());
-   }else if (kalimat[x]===kalimat[x].toLowerCase()){
-     tukarUkuran.push(kalimat[x].toUpperCase());
+ for(var i=0; i<kalimat.length;i++){
+   if(kalimat[i]===kalimat[i].toUpperCase()){
+     tukarUkuran.push(kalimat[i].toLowerCase());
+   }else if (kalimat[i]===kalimat[i].toLowerCase()){
+     tukarUkuran.push(kalimat[i].toUpperCase());
    }
  }
   return tukarUkuran.join('');
