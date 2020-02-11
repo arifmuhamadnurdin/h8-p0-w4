@@ -9,7 +9,6 @@ function ubahHuruf(kata) {
       }
     }
   }
-  
   return tampung;
 }
 

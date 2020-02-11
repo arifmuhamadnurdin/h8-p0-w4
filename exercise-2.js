@@ -2,8 +2,7 @@ function fpb(angka1, angka2) {
   // you can only write your code here!
   for (var x=angka1; x>0; x--){
     if(angka2 % x === 0 && angka1 % x===0){
-     
-        return x;
+      return x;
     }
   }
 }

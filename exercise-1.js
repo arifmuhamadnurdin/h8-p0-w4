@@ -9,7 +9,6 @@ function angkaPrima(angka) {
         return false;
       }
     }
-    
     return true;
   }
 }
