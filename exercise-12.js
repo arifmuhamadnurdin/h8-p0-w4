@@ -6,8 +6,8 @@ function countProfit(shoppers) {
 
   // you can only write your code here!
     if(shoppers.length == 0) return shoppers;
-    var stock = [];
-    for(var i = 0;i<listBarang.length;i++){
+    var stock = []
+    for(var i = 0; i < listBarang.length; i++){
         stock[i] = {
             product: listBarang[i][0],
             shoppers: [],
@@ -22,7 +22,7 @@ function countProfit(shoppers) {
             }
         }
     }
-    return stock;    
+    return stock    
 }
 
 // TEST CASES

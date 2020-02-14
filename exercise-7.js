@@ -9,8 +9,7 @@ function urutkanAbjad(str) {
         urutan += abjad[i];
       }
     }
-}
-  
+  }
   return urutan;
 }  
 

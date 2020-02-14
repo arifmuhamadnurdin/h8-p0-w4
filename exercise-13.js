@@ -1,15 +1,15 @@
 function deepSum (arr) {
     // Code disini
     if(arr.length == 0) return "No number"
-    var jml = 0;
+    var jumlah = 0
     for(i in arr) {
         for(j in arr[i]) {
             for(k in arr[i][j]) {
-                jml+=arr[i][j][k]
+                jumlah += arr[i][j][k]
             }
         }
     }
-    return jml;
+    return jumlah
   }
   
   //TEST CASE

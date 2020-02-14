@@ -9,7 +9,6 @@ function checkAB(num) {
       }
     }
   }
-  
   return false;
 }
 
